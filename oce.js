@@ -15,7 +15,7 @@ Hooks.once('ready', function() {
     hint: game.i18n.localize('OCE.screenDoorHint'),
     scope: 'client',
     type: Boolean,
-    default: false,
+    default: true,
     config: true,
     requiresReload: true
   });  
@@ -25,7 +25,7 @@ Hooks.once('ready', function() {
     hint: game.i18n.localize('OCE.scanlineHint'),
     scope: 'client',
     type: Boolean,
-    default: true,
+    default: false,
     config: true,
     requiresReload: true
   });
